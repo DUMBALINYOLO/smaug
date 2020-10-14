@@ -1,0 +1,85 @@
+
+
+teacher
+
+- has subjects
+- can be class teacher
+- may be notified
+- may be matched to students
+- may be asked questions
+- may create a study group
+- may record marks
+- may create asignment
+- may create homework
+
+
+asignment
+	-question
+
+	- answers
+	- marking
+	- date
+	- due_date
+	- attachment
+
+graded_asigment
+
+
+content
+
+	topic
+		guidelines
+		objectives
+		subtopic
+			notes
+				glosarry
+				title
+				sources(ManyToManyField(Bibliography))
+				media that is video, pictures, diagrams, graphs
+			test
+				question
+				choices
+				answer
+				score
+				corrections
+			asignment
+				question
+				choices
+				answer
+				score
+				corrections
+			excercises
+				question
+				choices
+				answer
+				score
+				corrections
+
+			Practice
+				question
+				choices
+				answer
+				score
+				corrections
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+student
+receiptionist
+parent
+school_head
+librarian
+
+admin
+
